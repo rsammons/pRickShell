@@ -1,0 +1,2 @@
+# pRickShell
+Powershell for Rick
