@@ -5,7 +5,7 @@ function Invoke-Chris
         [string] $say 
     )
     Begin {
-
+        $voice = New-Object -ComObject SAPI.SPVoice
     }
     process
     {
