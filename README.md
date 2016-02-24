@@ -1,2 +1,3 @@
-# pRickShell
-Powershell for Rick
+# pRickShell - (the 'p' is silent)
+
+Powershell for Rick 
