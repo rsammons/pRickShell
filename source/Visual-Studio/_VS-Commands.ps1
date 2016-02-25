@@ -6,6 +6,7 @@ function VS-Open {
     )
     Begin {
         Write-Host $match
+		Get-ChildItem -Filter $match | Write-Host -ForegroundColor Green
     }
     Process {
         ii "$($folder)$($match)"

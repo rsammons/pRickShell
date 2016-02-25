@@ -17,7 +17,7 @@ function RS-Gitall {
             if ($something -eq $null -or $something -eq "" ) {
                 #Write-Host $something
             } else {
-                Write-Host $_.Name
+                Write-Host $_.Name -ForegroundColor Green
                 git pull
 
             }
