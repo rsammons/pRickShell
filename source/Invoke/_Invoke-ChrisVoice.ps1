@@ -3,7 +3,7 @@ function Invoke-Chris
     param(
         [Parameter(ValueFromPipeline=$true)]
         [string] $say,
-		[string] $key=1
+		[string] $key
     )
     Begin {
         $voice = New-Object -ComObject SAPI.SPVoice
@@ -16,8 +16,8 @@ function Invoke-Chris
 		$cnt = 0
 		$voices | % { 
 			$cnt = $cnt + 1;
-			if ($cnt = $key) {
-			#if ($_.Id -eq "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0") {
+			if ($cnt -eq $key) {
+				#if ($_.Id -eq "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0") {
 				$voice.Voice = $_ 
 			}
 		}
