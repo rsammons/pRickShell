@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="source\Background\Change-Background.ps1" />
+    <None Include="source\Clipboard\Copy-Clipbooard.ps1" />
     <None Include="source\Git\_GIT-Commands.ps1" />
     <None Include="source\Invoke\_Invoke-ChrisVoice.ps1" />
     <None Include="source\Invoke\_Invoke-RickSammons.ps1" />

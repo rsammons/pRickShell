@@ -22,7 +22,7 @@ function Invoke-Chris
 			}
 		}
 		#$voice.GetVoices('','') | where $true.Id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0"
-        $voice.Speak("$say, chris chris chris, push it, push it real good") | out-null; 
+        $voice.Speak("$say, meow, meow, meow, chris chris chris") | out-null; 
 		#$voice.Speak("$say, chris") | out-null; 
 		
         $voice.Rate = $rate
