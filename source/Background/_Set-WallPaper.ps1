@@ -4,16 +4,6 @@ param(
 )
 
 Begin {
-	#Function Set-WallPaper {
-	#	param(
-	#		[string]$value
-	#	)
-	#	Process {
-	#		Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value $value
-	#		rundll32.exe user32.dll, UpdatePerUserSystemParameters
-	#	}
-	#}
-
 
 Function Update-Wallpaper {
     Param(
