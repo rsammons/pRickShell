@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
-    <None Include="source\Background\Change-Background.ps1" />
+    <None Include="source\Background\_Set-WallPaper.ps1" />
     <None Include="source\Clipboard\Copy-Clipbooard.ps1" />
     <None Include="source\Git\_GIT-Commands.ps1" />
     <None Include="source\Invoke\_Invoke-ChrisVoice.ps1" />
@@ -52,7 +52,12 @@
     <None Include="source\Services\_RS-Services.ps1" />
     <None Include="source\Visual-Studio\_VS-Commands.ps1" />
     <None Include="_load.ps1" />
+    <None Include="_background.ps1" />
     <None Include="_run.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="source\Background\618gcsC4yAL._UX342_.jpg" />
+    <Content Include="source\Background\GilDrinking-Again.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

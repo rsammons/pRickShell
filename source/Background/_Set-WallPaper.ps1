@@ -1,6 +1,6 @@
 param(
 	[Parameter(Mandatory=$false, ValueFromPipeline=$true)]
-	[string]$Image="$PSScriptRoot\618gcsC4yAL._UX342_.jpg"
+	[string]$Image="$PSScriptRoot\GilDrinking-Again.jpg"
 )
 
 Begin {
